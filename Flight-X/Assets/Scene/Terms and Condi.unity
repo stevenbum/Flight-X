@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -184,8 +184,7 @@ MonoBehaviour:
     terms and conditions:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c399d287f7490c449c29039a82711ee, type: 2}
-  m_sharedMaterial: {fileID: -3015122423470148846, guid: 3c399d287f7490c449c29039a82711ee,
-    type: 2}
+  m_sharedMaterial: {fileID: -3015122423470148846, guid: 3c399d287f7490c449c29039a82711ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -629,9 +628,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -81620929
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2288360470eea7542beed7fa333cdd67, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 98c03475bf47c6046ac41e7425a6a18e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -662,7 +661,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2288360470eea7542beed7fa333cdd67, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 98c03475bf47c6046ac41e7425a6a18e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -739,9 +738,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Terms and Conditions
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 78aa222d14c6dc24ba01e99d0c127724, type: 2}
-  m_sharedMaterial: {fileID: 6855044356221383743, guid: 78aa222d14c6dc24ba01e99d0c127724,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8b69cb9661d59a440b3bc9e0ff1eab8a, type: 2}
+  m_sharedMaterial: {fileID: 5767788990938898048, guid: 8b69cb9661d59a440b3bc9e0ff1eab8a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -844,7 +842,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3f6ac1f792ca1046b8bea7ef59145c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: sceneName
 --- !u!4 &1528855950
 Transform:
   m_ObjectHideFlags: 0
@@ -937,7 +934,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -699691901
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 46deb3cd6a134634bbd04b95183c92ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1268,9 +1265,8 @@ MonoBehaviour:
     In the event that you violate these terms and conditions, we
     have the right to suspend or terminate your access to the game.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 3c399d287f7490c449c29039a82711ee, type: 2}
-  m_sharedMaterial: {fileID: -3015122423470148846, guid: 3c399d287f7490c449c29039a82711ee,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4c41be3721296094098dcfc868c6f87e, type: 2}
+  m_sharedMaterial: {fileID: -7727011910826303001, guid: 4c41be3721296094098dcfc868c6f87e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1403,9 +1399,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: I AGREE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 78aa222d14c6dc24ba01e99d0c127724, type: 2}
-  m_sharedMaterial: {fileID: 6855044356221383743, guid: 78aa222d14c6dc24ba01e99d0c127724,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8b69cb9661d59a440b3bc9e0ff1eab8a, type: 2}
+  m_sharedMaterial: {fileID: 5767788990938898048, guid: 8b69cb9661d59a440b3bc9e0ff1eab8a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
