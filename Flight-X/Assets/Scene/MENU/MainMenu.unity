@@ -908,7 +908,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 800130025}
         m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: gotoAbout
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
