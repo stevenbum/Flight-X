@@ -25,7 +25,9 @@ public class TextChange : MonoBehaviour
     void Update()
 
     {
-        string[] biomes = new string[] { "grasslands", "rainforest", "desert", "rocky", "swamp", "tundra" };
+        string[] biomes = new string[] { "TRIVIA1: ", "TRIVIA2: ", "TRIVIA3: ", "TRIVIA4: ", "TRIVIA5: ", "TRIVIA6: ", 
+        "TRIVIA7: ", "TRIVIA8: ", "TRIVIA9: ", "TRIVIA10: ", "TRIVIA11: ", "TRIVIA12: ", "TRIVIA13: ", "TRIVIA14: ", "TRIVIA15: ",
+        "TRIVIA16: ","TRIVIA17: ","TRIVIA18: ","TRIVIA19: ","TRIVIA20: ","TRIVIA21: ","TRIVIA22: ","TRIVIA23: ","TRIVIA24: ","TRIVIA25: "};
         System.Random random = new System.Random();
         int useBiome = random.Next(biomes.Length);
         string pickBiome = biomes[useBiome]; 
