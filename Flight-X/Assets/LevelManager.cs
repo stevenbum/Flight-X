@@ -16,6 +16,10 @@ public class LevelManager : MonoBehaviour
     {
         SceneManager.LoadScene("Instructions");
     }
+    public void gotoAbout()
+    {
+        SceneManager.LoadScene("About");
+    }
     public void backtoMenu()
     {
         SceneManager.LoadScene("MainMenu");
