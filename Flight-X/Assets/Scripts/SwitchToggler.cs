@@ -1,18 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
+using System;
 
-public class SwitchToggler : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+public class SwitchHandler : MonoBehaviour{
+  private int switchState = 1;
+  public GameObject switchBtn;
+  
+  public void OnSwitchButtonClicked(){
+    switchBtn.transform.DOLocalMoveX(-switchBtn.transform.localPosition.x,0.2f);
+    switchState = Math.Sign(-switchBtn.transform.localPosition.x);
+  }
+  
 }
