@@ -16,6 +16,10 @@ public class LevelManager : MonoBehaviour
     {
         SceneManager.LoadScene("Instructions");
     }
+    public void gotoOptions()
+    {
+        SceneManager.LoadScene("Options");
+    }
     public void gotoAbout()
     {
         SceneManager.LoadScene("About");
