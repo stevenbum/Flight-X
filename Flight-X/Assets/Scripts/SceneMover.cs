@@ -6,7 +6,7 @@ public class SceneMover : MonoBehaviour
 {
     public int sceneBuildIndex;
 
-    private void OnTriggerEnter(Collider other)
+   private void OnTriggerEnter(Collider other)
     {
         print("Trigger Entered");
 

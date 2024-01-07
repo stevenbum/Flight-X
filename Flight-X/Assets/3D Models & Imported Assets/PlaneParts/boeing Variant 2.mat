@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: boeing Variant 13
+  m_Name: boeing Variant 2
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_Parent: {fileID: -3251195899870116957, guid: 8fda9964e3698f3499325ff6e118e8c6, type: 3}
+  m_Parent: {fileID: -1912905011562905709, guid: 9368d54b39f82ca438e0e17545723b74, type: 3}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
