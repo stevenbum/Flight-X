@@ -2,18 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-public class FixedButton : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
+public class PauseFixedButton : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
 {
     [HideInInspector]
-    public bool Pressed;
+    public bool buttonPressed;
     public void OnPointerDown(PointerEventData eventData)
     {
-        Pressed = true;
+        
+        buttonPressed = true;
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        Pressed = false;
-       
+        buttonPressed = false;
+
     }
 }

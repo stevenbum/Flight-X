@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     public float InteractRange;
     
     public bool Pressed;
+    
+
 
     private void Start()
     {
@@ -20,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Update()
     {
+
         Vector3 Move = transform.right * joystick.Horizontal + transform.forward * joystick.Vertical;
         controller.Move(Move * SpeedMove*Time.deltaTime);
         

@@ -6620,7 +6620,7 @@ MonoBehaviour:
   SpeedMove: 5
   controller: {fileID: 719433373}
   InteractorSource: {fileID: 719433371}
-  InteractRange: 20
+  InteractRange: 100
   Pressed: 0
 --- !u!136 &719433375
 CapsuleCollider:
