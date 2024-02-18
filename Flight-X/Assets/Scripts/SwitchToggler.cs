@@ -11,6 +11,7 @@ public class SwitchHandler : MonoBehaviour{
   
   public void OnSwitchButtonClicked(){
         if (switchBtn != null) {
+            Debug.Log("Switch button is not null, proceeding with animation...");
             switchBtn.transform.DOLocalMoveX(-switchBtn.transform.localPosition.x,0.2f);
             switchState = Math.Sign(-switchBtn.transform.localPosition.x);
         }

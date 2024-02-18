@@ -309,7 +309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchBtn: {fileID: 1227714106}
-  audioManager: {fileID: 0}
+  audioManager: {fileID: 584661883}
 --- !u!114 &73322421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2249,7 +2249,7 @@ GameObject:
   - component: {fileID: 1227714108}
   - component: {fileID: 1227714110}
   m_Layer: 0
-  m_Name: swtchBtn
+  m_Name: switchBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
