@@ -20,6 +20,6 @@ public class TouchController : MonoBehaviour
     {
         _CameraLook.LockAxis = _FixedTouchField.TouchDist;
         _PlayerMovement.Pressed =_FixedButton.Pressed;
-        _PauseMenu.buttonPressed = _PauseFixedButton.buttonPressed;
+        _PauseMenu.buttonPressed = _PauseFixedButton.Pressed;
     }
 }

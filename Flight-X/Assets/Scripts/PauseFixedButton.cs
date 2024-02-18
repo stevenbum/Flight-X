@@ -5,16 +5,16 @@ using UnityEngine.EventSystems;
 public class PauseFixedButton : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
 {
     [HideInInspector]
-    public bool buttonPressed;
+    public bool Pressed;
     public void OnPointerDown(PointerEventData eventData)
     {
         
-        buttonPressed = true;
+        Pressed = true;
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        buttonPressed = false;
+        Pressed = false;
 
     }
 }

@@ -10,11 +10,8 @@ public class PlayerMovement : MonoBehaviour
 
     public Transform InteractorSource;
     public float InteractRange;
-    
     public bool Pressed;
     
-
-
     private void Start()
     {
         controller = GetComponent<CharacterController>();
