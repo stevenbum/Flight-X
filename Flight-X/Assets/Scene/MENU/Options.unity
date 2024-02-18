@@ -309,7 +309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchBtn: {fileID: 1227714106}
-  audioManager: {fileID: 0}
+  audioManager: {fileID: 584661883}
 --- !u!114 &73322421
 MonoBehaviour:
   m_ObjectHideFlags: 0
