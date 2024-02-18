@@ -636,6 +636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bc5ba0781b24234683f4b0f7b77a852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InteractButton: {fileID: 138640777}
 --- !u!65 &513768276
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -651,7 +652,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -754,6 +755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bc5ba0781b24234683f4b0f7b77a852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InteractButton: {fileID: 138640777}
 --- !u!65 &589916519
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -769,7 +771,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -1114,6 +1116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bc5ba0781b24234683f4b0f7b77a852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InteractButton: {fileID: 138640777}
 --- !u!65 &718073196
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1129,7 +1132,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3

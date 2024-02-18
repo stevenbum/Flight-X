@@ -27,6 +27,7 @@ public class ObjectiveScript : MonoBehaviour
             return;
         }
 
+        //Activate Objective    
         objectives[objectivesDone].GetComponent<MeshRenderer>().material = activeObjectives;
         objectives[objectivesDone].GetComponent<InteractableObj>().Interact();
     }
@@ -49,15 +50,10 @@ public class ObjectiveScript : MonoBehaviour
              objectives[objectivesDone].GetComponent<MeshRenderer>().material = activeObjectives;
     }
         //idk what this is 
-        objectives[objectivesDone].GetComponent<InteractableObj>().Interact();
+            objectives[objectivesDone].GetComponent<InteractableObj>().Interact();
     }
-    
     private void Victory()
     {
         Debug.Log("Proceed to next level");
     }
-
-
-
-
 }

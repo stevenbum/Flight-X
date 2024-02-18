@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     public float InteractRange;
     public bool Pressed;
     
+
+
     private void Start()
     {
         controller = GetComponent<CharacterController>();
