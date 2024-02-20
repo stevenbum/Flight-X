@@ -636,10 +636,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bc5ba0781b24234683f4b0f7b77a852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
   InteractButton: {fileID: 138640777}
 
->>>>>>> Stashed changes
 --- !u!65 &513768276
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -758,10 +756,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bc5ba0781b24234683f4b0f7b77a852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
   InteractButton: {fileID: 138640777}
 
->>>>>>> Stashed changes
 --- !u!65 &589916519
 BoxCollider:
   m_ObjectHideFlags: 0
