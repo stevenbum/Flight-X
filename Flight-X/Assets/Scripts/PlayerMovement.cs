@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,9 +12,8 @@ public class PlayerMovement : MonoBehaviour
     public Transform InteractorSource;
     public float InteractRange;
     public bool Pressed;
-    
 
-
+ 
     private void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -21,7 +21,6 @@ public class PlayerMovement : MonoBehaviour
 
     public void Update()
     {
-
         Vector3 Move = transform.right * joystick.Horizontal + transform.forward * joystick.Vertical;
         controller.Move(Move * SpeedMove*Time.deltaTime);
         
@@ -32,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactObj))
                 {
-                    interactObj.Interact();
+                    interactObj.Interact();  
                 }
             }
         }
