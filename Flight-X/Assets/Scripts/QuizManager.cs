@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class QuizManager : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class QuizManager : MonoBehaviour
 
     public GameObject Quizpanel;
     public GameObject  GoPanel;    
-    public Text QuestionTxt;
+    public TMP_Text QuestionTxt;
     public Text ScoreTxt;
 
     int totalQuestions = 0;

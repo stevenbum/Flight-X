@@ -646,13 +646,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Questions: Question 1( to be prepared for evaluation)
+  - Questions: ' What is the very first thing that a cabin crew should do when boarding
+      the aircraft?'
     Answers:
-    - 'Answer 1 '
-    - 'Answer 2 '
-    - 'Answer 3 '
-    - Answer 4
-    CorrectAnswer: 1
+    - Proceed with cabin cleanup without checking for any safety hazards.
+    - Check safety equipment, make sure the seals are fully functional.
+    - Engage in casual conversation with passengers before addressing
+    - Check areas that are safe and ensure nothing is left in the cabin.
+    CorrectAnswer: 4
   - Questions: 'Question 2 '
     Answers:
     - true
@@ -666,7 +667,21 @@ MonoBehaviour:
     - 'true '
     - false
     - true
-    CorrectAnswer: 1
+    CorrectAnswer: 4
+  - Questions: Question 4
+    Answers:
+    - true
+    - 'true '
+    - false
+    - true
+    CorrectAnswer: 4
+  - Questions: Question 5
+    Answers:
+    - true
+    - 'true '
+    - false
+    - true
+    CorrectAnswer: 4
   options:
   - {fileID: 2042926836}
   - {fileID: 1494574200}
@@ -675,7 +690,7 @@ MonoBehaviour:
   currentQuestion: 0
   Quizpanel: {fileID: 1858063861}
   GoPanel: {fileID: 815517587}
-  QuestionTxt: {fileID: 0}
+  QuestionTxt: {fileID: 1327256610}
   ScoreTxt: {fileID: 1267553539}
   score: 0
   sceneBuildIndex: 8
