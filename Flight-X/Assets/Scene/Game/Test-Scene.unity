@@ -637,11 +637,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InteractButton: {fileID: 138640777}
-<<<<<<< HEAD
 
 >>>>>>> Stashed changes
 =======
->>>>>>> parent of f50881f (test)
+
 --- !u!65 &513768276
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -761,11 +760,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InteractButton: {fileID: 138640777}
-<<<<<<< HEAD
+
 
 >>>>>>> Stashed changes
-=======
->>>>>>> parent of f50881f (test)
+
 --- !u!65 &589916519
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -869,7 +867,6 @@ MonoBehaviour:
   activeObjectives: {fileID: 2100000, guid: 7b203c7b484bb674e9376e0b2c5fff1e, type: 2}
   inactiveObjectives: {fileID: 2100000, guid: 84961b5587ac26b46a0fdecb5d286ad5, type: 2}
   finalObjectives: {fileID: 2100000, guid: a82c97092ead8b14988eaa75453912cb, type: 2}
-<<<<<<< HEAD
 
   objectives: []
   activeObjectives: {fileID: 2100000, guid: 7b203c7b484bb674e9376e0b2c5fff1e, type: 2}
@@ -877,8 +874,7 @@ MonoBehaviour:
   finalObjectives: {fileID: 2100000, guid: a82c97092ead8b14988eaa75453912cb, type: 2}
   objectivesDone: 0
 >>>>>>> Stashed changes
-=======
->>>>>>> parent of f50881f (test)
+
 --- !u!4 &596258893
 Transform:
   m_ObjectHideFlags: 0
@@ -1070,7 +1066,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f2706bedc472df4caad040ab0f447ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
 <<<<<<< Updated upstream
 
   XMove: 0
@@ -1078,7 +1073,6 @@ MonoBehaviour:
   XRotation: 0
 >>>>>>> Stashed changes
 =======
->>>>>>> parent of f50881f (test)
   PlayerBody: {fileID: 1940215577}
   LockAxis: {x: 0, y: 0}
   Sensitivity: 100
@@ -1146,11 +1140,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InteractButton: {fileID: 138640777}
-<<<<<<< HEAD
 
 >>>>>>> Stashed changes
 =======
->>>>>>> parent of f50881f (test)
 --- !u!65 &718073196
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2217,13 +2209,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TouchDist: {x: 0, y: 0}
   PointerOld: {x: 0, y: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
 
   PointerId: 0
 >>>>>>> Stashed changes
 =======
->>>>>>> parent of f50881f (test)
   Pressed: 0
 --- !u!1 &1875306872
 GameObject:
