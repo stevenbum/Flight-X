@@ -639,7 +639,7 @@ MonoBehaviour:
   InteractButton: {fileID: 138640777}
 
 >>>>>>> Stashed changes
-
+=======
 
 --- !u!65 &513768276
 BoxCollider:
@@ -1072,6 +1072,7 @@ MonoBehaviour:
   YMove: 0
   XRotation: 0
 >>>>>>> Stashed changes
+=======
   PlayerBody: {fileID: 1940215577}
   LockAxis: {x: 0, y: 0}
   Sensitivity: 100
@@ -1141,6 +1142,7 @@ MonoBehaviour:
   InteractButton: {fileID: 138640777}
 
 >>>>>>> Stashed changes
+=======
 --- !u!65 &718073196
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2211,7 +2213,7 @@ MonoBehaviour:
 
   PointerId: 0
 >>>>>>> Stashed changes
-
+=======
   Pressed: 0
 --- !u!1 &1875306872
 GameObject:
