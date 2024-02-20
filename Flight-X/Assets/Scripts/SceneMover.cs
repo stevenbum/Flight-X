@@ -10,7 +10,7 @@ public class SceneMover : MonoBehaviour
     {
         print("Trigger Entered");
 
-        if(other.tag == "Player")
+        if(other.tag ==  "Player")
         {
             print("Switching Scene to " + sceneBuildIndex);
             SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);

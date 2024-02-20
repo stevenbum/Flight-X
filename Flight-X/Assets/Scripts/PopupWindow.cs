@@ -6,33 +6,32 @@ using UnityEngine;
 public class PopupWindow : MonoBehaviour
 {
     public TMP_Text popupText;
-    private GameObject window;
+    public GameObject window;
     private Animator popupAnimator;
-    public string objectives;
+    public string objectives;  
     private Queue<string> popUpQueue;
     private Coroutine queueChecker;
 
     private void Start()
     {
-        window = transform.GetChild(0).gameObject;
         popupAnimator = window.GetComponent<Animator>();
         window.SetActive(false);
         popUpQueue = new Queue<string>();
-
     }
 
-    public void AddtoQueue(string text)
+    public void AddtoQueue(string objectives)
     {
-        popUpQueue.Enqueue(text);
+        popUpQueue.Enqueue(objectives);
         if(queueChecker == null){
             queueChecker = StartCoroutine(CheckQueue());
         }
     }
-    private void ShowPopup(string text)
+    private void ShowPopup(string objectives)
     {
         window.SetActive(true);
-        popupText.text = text;
+        popupText.text = objectives;
         popupAnimator.Play("PopUpAnimation");
+        Debug.Log("Printed Objective");
     }
 
     private IEnumerator CheckQueue()
@@ -49,4 +48,8 @@ public class PopupWindow : MonoBehaviour
         queueChecker = null;
     }
 
+   private void OnTriggerEnter(Collider other)
+    {
+       AddtoQueue(objectives);
+    }
 }
