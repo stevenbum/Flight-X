@@ -638,7 +638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
   InteractButton: {fileID: 138640777}
-=======
+
 >>>>>>> Stashed changes
 --- !u!65 &513768276
 BoxCollider:
@@ -760,7 +760,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
   InteractButton: {fileID: 138640777}
-=======
+
 >>>>>>> Stashed changes
 --- !u!65 &589916519
 BoxCollider:
@@ -866,7 +866,7 @@ MonoBehaviour:
   activeObjectives: {fileID: 2100000, guid: 7b203c7b484bb674e9376e0b2c5fff1e, type: 2}
   inactiveObjectives: {fileID: 2100000, guid: 84961b5587ac26b46a0fdecb5d286ad5, type: 2}
   finalObjectives: {fileID: 2100000, guid: a82c97092ead8b14988eaa75453912cb, type: 2}
-=======
+
   objectives: []
   activeObjectives: {fileID: 2100000, guid: 7b203c7b484bb674e9376e0b2c5fff1e, type: 2}
   inactiveObjectives: {fileID: 2100000, guid: 84961b5587ac26b46a0fdecb5d286ad5, type: 2}
@@ -1065,7 +1065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
-=======
+
   XMove: 0
   YMove: 0
   XRotation: 0
@@ -1138,7 +1138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
   InteractButton: {fileID: 138640777}
-=======
+
 >>>>>>> Stashed changes
 --- !u!65 &718073196
 BoxCollider:
@@ -2207,7 +2207,7 @@ MonoBehaviour:
   TouchDist: {x: 0, y: 0}
   PointerOld: {x: 0, y: 0}
 <<<<<<< Updated upstream
-=======
+
   PointerId: 0
 >>>>>>> Stashed changes
   Pressed: 0
