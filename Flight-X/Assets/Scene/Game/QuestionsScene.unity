@@ -646,42 +646,47 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Questions: ' What is the very first thing that a cabin crew should do when boarding
-      the aircraft?'
+  - Questions: What is the very first thing that a cabin crew should do when boarding
+      the aircraft?
     Answers:
     - Proceed with cabin cleanup without checking for any safety hazards.
-    - Check safety equipment, make sure the seals are fully functional.
-    - Engage in casual conversation with passengers before addressing
+    - Check safety equipment and make sure the seats are fully functional.
+    - Engage in casual talk with passengers before addressing
     - Check areas that are safe and ensure nothing is left in the cabin.
     CorrectAnswer: 4
-  - Questions: 'Question 2 '
+  - Questions: What is the best course of action for cabin crew if there is a fire
+      onboard?
     Answers:
-    - true
-    - true
-    - false
-    - false
+    - Attempt to extinguish the fire without proper equipment or training.
+    - Evacuate the aircraft immediately.
+    - Ignore the fire and continue with routine duties.
+    - Follow established procedures for  onboard fires and evacuate passengers.
     CorrectAnswer: 4
-  - Questions: Question 3
+  - Questions: What are the procedures for securing the cabin and preparing passengers
+      for an emergency landing?
     Answers:
-    - true
-    - 'true '
-    - false
-    - true
-    CorrectAnswer: 4
-  - Questions: Question 4
+    - Ensure passengers are seated with seat belts fastened, and provide clear instructions
+      for brace positions.
+    - 'Ignore passenger concerns and continue with regular duties. '
+    - Delay securing the cabin until the last minute.
+    - Begin serving food and drinks to keep passengers calm.
+    CorrectAnswer: 1
+  - Questions: How should cabin crew communicate with passengers during an emergency
+      evacuation?
     Answers:
-    - true
-    - 'true '
-    - false
-    - true
-    CorrectAnswer: 4
-  - Questions: Question 5
+    - Shout instructions loudly without any clarity.
+    - Speak clearly and calmly, use simple and direct language.
+    - Provide conflicting information to confuse passengers.
+    - Use technical jargon that passengers may not understand.
+    CorrectAnswer: 2
+  - Questions: What are the appropriate steps for passengers to take in the event
+      of a water landing?
     Answers:
-    - true
-    - 'true '
-    - false
-    - true
-    CorrectAnswer: 4
+    - Inflate life vests immediately before exiting the aircraft.
+    - Use electronic devices for communication.
+    - Listen to crew instructions and locate the nearest exit.
+    - Open emergency exits without waiting for instructions.
+    CorrectAnswer: 3
   options:
   - {fileID: 2042926836}
   - {fileID: 1494574200}
@@ -1308,7 +1313,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1. What is the very first thing that a cabin crew should do when boarding
+  m_text: What is the very first thing that a cabin crew should do when boarding
     the aircraft?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c399d287f7490c449c29039a82711ee, type: 2}
@@ -1343,7 +1348,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1448,9 +1453,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.8980392, g: 0.89411765, b: 0.8901961, a: 1}
-    m_HighlightedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.8980392, g: 0.89411765, b: 0.8901961, a: 1}
+    m_PressedColor: {r: 0.8980392, g: 0.89411765, b: 0.8901961, a: 1}
+    m_SelectedColor: {r: 0.8980392, g: 0.89411765, b: 0.8901961, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1598,7 +1603,7 @@ MonoBehaviour:
     m_NormalColor: {r: 0.8980392, g: 0.89411765, b: 0.8901961, a: 1}
     m_HighlightedColor: {r: 0.8980392, g: 0.89411765, b: 0.8901961, a: 1}
     m_PressedColor: {r: 0.8980392, g: 0.89411765, b: 0.8901961, a: 1}
-    m_SelectedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.8980392, g: 0.89411765, b: 0.8901961, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1745,8 +1750,8 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 0.8980392, g: 0.89411765, b: 0.8901961, a: 1}
     m_HighlightedColor: {r: 0.8980392, g: 0.89411765, b: 0.8901961, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.8980392, g: 0.89411765, b: 0.8901961, a: 1}
+    m_SelectedColor: {r: 0.8980392, g: 0.89411765, b: 0.8901961, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -2477,8 +2482,8 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 0.8962264, g: 0.8950058, b: 0.89115345, a: 1}
     m_HighlightedColor: {r: 0.8980392, g: 0.89411765, b: 0.8901961, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.8980392, g: 0.89411765, b: 0.8901961, a: 1}
+    m_SelectedColor: {r: 0.8980392, g: 0.89411765, b: 0.8901961, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
