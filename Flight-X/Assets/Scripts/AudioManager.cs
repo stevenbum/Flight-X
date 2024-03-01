@@ -4,17 +4,23 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    private AudioSource musicSource;
+    [Header("-----Audio Source-----")]
+    [SerializeField] AudioSource musicSource;
+    [SerializeField] AudioSource SFXSource;
+
+    [Header("-----Audio Clip-----")]
+    public AudioClip background;
+    public AudioClip checkpoint;
+    public AudioClip failed;
+
     private void Start()
     {
-        musicSource = GetComponent<AudioSource>();
-
-
+        musicSource.clip = background;
+        musicSource.Play();
     }
 
-    public void ToggleMusicMute(bool mute)
+    public void PlaySFX(AudioClip clip)
     {
-        musicSource.mute = mute;
-        Debug.Log("Music muted: " + mute);
+        SFXSource.PlayOneShot(clip);
     }
 }
