@@ -13,6 +13,20 @@ public class AudioManager : MonoBehaviour
     public AudioClip checkpoint;
     public AudioClip failed;
 
+    public static AudioManager instance;
+    private void Awake()
+    {
+        if (instance == null) 
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+        
+    }
     private void Start()
     {
         musicSource.clip = background;
