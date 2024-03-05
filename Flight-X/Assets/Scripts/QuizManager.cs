@@ -37,11 +37,18 @@ public class QuizManager : MonoBehaviour
     {
         score += 1;
         QnA.RemoveAt(currentQuestion);
-        generateQuestions();
+        StartCoroutine(WaitForNext());
+        Debug.Log("Current Score" + score);
     }
     public void wrong()
     {
         QnA.RemoveAt(currentQuestion);
+        StartCoroutine(WaitForNext());
+    }
+
+    IEnumerator WaitForNext()
+    {
+        yield return new WaitForSeconds(1);
         generateQuestions();
     }
     public void retry()
@@ -60,6 +67,7 @@ public class QuizManager : MonoBehaviour
 
         for (int i = 0; i < options.Length; i++) {
             options[i].GetComponent<AnswerScript>().isCorrect = false;
+            options[i].GetComponent<Image>().color = options[i].GetComponent<AnswerScript>().startColor;
             options[i].transform.GetChild(0).GetComponent<Text>().text = QnA[currentQuestion].Answers[i];
 
             if (QnA[currentQuestion].CorrectAnswer == i + 1)
