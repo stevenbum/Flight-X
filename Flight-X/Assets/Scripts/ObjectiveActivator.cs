@@ -19,6 +19,7 @@ public class ObjectiveActivator : MonoBehaviour
    public void ActivateObjective()
     {
         ObjectiveActive = true;
+        DestroyOnExit.SetActive(true);
     }
     private void OnTriggerEnter(Collider other)
     {
