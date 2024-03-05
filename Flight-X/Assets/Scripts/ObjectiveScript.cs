@@ -11,9 +11,6 @@ public class ObjectiveScript : MonoBehaviour
     public Material inactiveObjectives;
     public Material finalObjectives;
     public int sceneBuildIndex;
-
-
-
     private int objectivesDone = 0;
 
 
@@ -38,6 +35,7 @@ public class ObjectiveScript : MonoBehaviour
     public void nextObjective()
     {
         objectivesDone++;
+
         Debug.Log("Objectives finished: " + objectivesDone);
         Debug.Log("Objectives remaining: " + objectives.Count); 
 

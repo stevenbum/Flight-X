@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5845391745933194627}
   - component: {fileID: 814921920673587618}
   - component: {fileID: 1071982347737877701}
+  - component: {fileID: 2869132156661294947}
   m_Layer: 0
   m_Name: SampleInteractable (2)
   m_TagString: Untagged
@@ -118,7 +119,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bc5ba0781b24234683f4b0f7b77a852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2869132156661294947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725214113357079277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3becd4d295ee75438cb563ebfb02891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   InteractButton: {fileID: 0}
+  DestroyOnExit: {fileID: 725214113357079277}
 --- !u!1 &1397851754108748928
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,6 +183,7 @@ MonoBehaviour:
   activeObjectives: {fileID: 2100000, guid: 7b203c7b484bb674e9376e0b2c5fff1e, type: 2}
   inactiveObjectives: {fileID: 2100000, guid: 84961b5587ac26b46a0fdecb5d286ad5, type: 2}
   finalObjectives: {fileID: 2100000, guid: a82c97092ead8b14988eaa75453912cb, type: 2}
+  sceneBuildIndex: 0
 --- !u!1 &4368844485736080139
 GameObject:
   m_ObjectHideFlags: 0
@@ -182,6 +197,7 @@ GameObject:
   - component: {fileID: 2040329158612079933}
   - component: {fileID: 1076619797892154332}
   - component: {fileID: 1558799482616778749}
+  - component: {fileID: 4949517973972933192}
   m_Layer: 0
   m_Name: SampleInteractable (1)
   m_TagString: Untagged
@@ -287,7 +303,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bc5ba0781b24234683f4b0f7b77a852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4949517973972933192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4368844485736080139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3becd4d295ee75438cb563ebfb02891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   InteractButton: {fileID: 0}
+  DestroyOnExit: {fileID: 4368844485736080139}
 --- !u!1 &8895864677373882928
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,6 +330,7 @@ GameObject:
   - component: {fileID: 8902072897458832355}
   - component: {fileID: 820961075564908129}
   - component: {fileID: 3663668572781833465}
+  - component: {fileID: 8570125794288904439}
   m_Layer: 0
   m_Name: SampleInteractable
   m_TagString: Untagged
@@ -406,4 +436,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bc5ba0781b24234683f4b0f7b77a852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8570125794288904439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8895864677373882928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3becd4d295ee75438cb563ebfb02891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   InteractButton: {fileID: 0}
+  DestroyOnExit: {fileID: 8895864677373882928}
