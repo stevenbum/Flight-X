@@ -309,12 +309,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InteractButton: {fileID: 138640777}
   DestroyOnExit: {fileID: 316524723}
+--- !u!1 &384620424 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 86594102802008739, guid: 50cce52fd0c43ca4f98b077798e69fa1, type: 3}
+  m_PrefabInstance: {fileID: 7954871792225692059}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &384620426 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5809612637470929606, guid: 50cce52fd0c43ca4f98b077798e69fa1, type: 3}
   m_PrefabInstance: {fileID: 7954871792225692059}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 384620424}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 99c3a629a763a9f4ba703707a7d3d1d1, type: 3}
@@ -978,7 +983,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -998,7 +1003,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myConversation: {fileID: 1338138465}
   talkPressed: 0
-  talkButton: {fileID: 0}
+  talkButton: {fileID: 384620424}
 --- !u!135 &1956619009
 SphereCollider:
   m_ObjectHideFlags: 0
