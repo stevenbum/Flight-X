@@ -12,6 +12,9 @@ public class TouchController : MonoBehaviour
     public  PauseFixedButton _PauseFixedButton;
     public FixedClipboardButton _FixedClipboardButton;
     public  PopupWindow _PopupWindow;
+    public FixedTalkButton _FixedTalkButton;
+    public NPCScript _NPCScript;
+
     void Start()
     {
         
@@ -24,5 +27,6 @@ public class TouchController : MonoBehaviour
         _PlayerMovement.Pressed =_FixedButton.Pressed;
         _PauseMenu.buttonPressed = _PauseFixedButton.Pressed;
         _PopupWindow.clipPressed = _FixedClipboardButton.Pressed; 
+        _NPCScript.talkPressed = _FixedTalkButton.Pressed;
     }
 }
