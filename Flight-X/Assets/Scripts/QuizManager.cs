@@ -4,17 +4,20 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
+using Unity.VisualScripting;
 
 public class QuizManager : MonoBehaviour
 {
     public List<QuestionsAndAnswers> QnA;
     public GameObject[] options;
     public int currentQuestion;
+    public int number;
 
     public GameObject Quizpanel;
     public GameObject  GoPanel;    
     public TMP_Text QuestionTxt;
     public Text ScoreTxt;
+    public TMP_Text QuestionNum;
 
     int totalQuestions = 0;
     public int score;
@@ -22,11 +25,14 @@ public class QuizManager : MonoBehaviour
 
     public void Start()
     {
+        number = 1;
         totalQuestions = QnA.Count;
+        QuestionNum.text = "Question " + number.ToString() + "/" + totalQuestions;
         GoPanel.SetActive(false);
         generateQuestions();
+        Debug.Log("Current number:" + number);
     }
-    
+
     public void GameOver() {
         Quizpanel.SetActive(false);
         GoPanel.SetActive(true);
@@ -48,8 +54,11 @@ public class QuizManager : MonoBehaviour
 
     IEnumerator WaitForNext()
     {
+        number++;
         yield return new WaitForSeconds(1);
         generateQuestions();
+        QuestionNum.text = "Question " + number.ToString() + "/" + totalQuestions;
+        Debug.Log(currentQuestion);
     }
     public void retry()
     {

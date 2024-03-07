@@ -773,6 +773,7 @@ MonoBehaviour:
   GoPanel: {fileID: 815517587}
   QuestionTxt: {fileID: 1327256610}
   ScoreTxt: {fileID: 1267553539}
+  QuestionNum: {fileID: 1285429020}
   score: 0
   sceneBuildIndex: 8
 --- !u!4 &944310179
