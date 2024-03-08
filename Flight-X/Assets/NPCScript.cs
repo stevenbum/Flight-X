@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DialogueEditor;
-using UnityEngine.EventSystems;
+using UnityEngine.EventSystems; 
 
 public class NPCScript : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
