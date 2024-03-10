@@ -1232,7 +1232,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6236339283271481603
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1249,8 +1249,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -100, y: 100}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchoredPosition: {x: -85.6358, y: 80.80791}
+  m_SizeDelta: {x: 121.2716, y: 111.6159}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5882649058153037458
 CanvasRenderer:
@@ -1280,7 +1280,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7b84b7969efdd1b4d9e50a9f9a22714e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e2b5dd77a9dbfee4dbf8c30048bdac53, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1677,15 +1677,15 @@ RectTransform:
   m_GameObject: {fileID: 7507833022584045724}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9304242, y: 0.9304242, z: 0.9304242}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2055507870397468649}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -53, y: -6}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -35.0083, y: 6.0924}
+  m_SizeDelta: {x: 61.3257, y: 70.1692}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5432037804469212490
 CanvasRenderer:
@@ -1715,7 +1715,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 99e42fa76862abd42aef8c8ac8d161ea, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b04fc24ce3f34b46989a9bf2817807b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

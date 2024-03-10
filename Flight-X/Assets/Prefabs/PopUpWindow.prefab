@@ -45,7 +45,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 182755402ea6e2446bb98cd97a474eaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectiveList: []
   popupText: {fileID: 5514481620993882267}
+  objectiveText: {fileID: 0}
   window: {fileID: 763033131838251802}
   clipPressed: 0
 --- !u!1 &3833357504373239160
@@ -294,7 +296,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 178, y: -40.8627}
+  m_AnchoredPosition: {x: 185, y: -12}
   m_SizeDelta: {x: 360, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8401074007809337189
