@@ -14,7 +14,6 @@ public class TouchController : MonoBehaviour
     public  PopupWindow _PopupWindow;
     public FixedTalkButton _FixedTalkButton;
     public NPCScript _NPCScript;
-
     void Start()
     {
         
