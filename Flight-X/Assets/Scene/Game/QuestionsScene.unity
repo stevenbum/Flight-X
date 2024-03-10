@@ -742,7 +742,7 @@ MonoBehaviour:
   - Questions: What are the procedures for securing the cabin and preparing passengers
       for an emergency landing?
     Answers:
-    - Ensure passengers are seated with seat belts fastened.
+    - Ensure passengers have their seat belts fastened.
     - 'Ignore passenger concerns and continue with regular duties. '
     - Delay securing the cabin until the last minute.
     - Begin serving food and drinks to keep passengers calm.
@@ -755,20 +755,20 @@ MonoBehaviour:
     - Provide conflicting information to  passengers.
     - Use technical jargons/slangs.
     CorrectAnswer: 2
-  - Questions: What are the appropriate steps for passengers to take in the event
-      of a water landing?
+  - Questions: What is the first procedure in opening an aircraft door?
     Answers:
-    - Inflate life vests immediately before exiting the aircraft.
-    - Use electronic devices for communication.
-    - Listen to crew instructions and locate the nearest exit.
-    - Open emergency exits without waiting for instructions.
-    CorrectAnswer: 3
+    - Get permission from the captain.
+    - Turn the handle diagonally.
+    - Pull the lever downwards.
+    - Check the cabin pressure indicator.
+    CorrectAnswer: 1
   options:
   - {fileID: 2042926836}
   - {fileID: 1494574200}
   - {fileID: 1387640512}
   - {fileID: 1403151973}
   currentQuestion: 0
+  number: 0
   Quizpanel: {fileID: 1858063861}
   GoPanel: {fileID: 815517587}
   QuestionTxt: {fileID: 1327256610}
