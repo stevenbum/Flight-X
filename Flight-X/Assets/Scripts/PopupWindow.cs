@@ -10,28 +10,32 @@ public class PopupWindow : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     Scene scene;
     public List<ObjectiveList> objectiveList;
+    private Queue<string> popUpQueue;
     public TMP_Text popupText;
     public TMP_Text objectiveText;
+    public TMP_Text objectiveText1;
+    public TMP_Text objectiveText2;
     public GameObject window;
     private Animator popupAnimator;
-    private Queue<string> popUpQueue;
     private Coroutine queueChecker;
-
+    
     //private ObjectiveScript objectiveScript;
 
     public bool clipPressed;
 
-    //private int currentObjectives;
     // get number of objectives from objective script
     
     private void Start()
-    {
+    {   
         scene = SceneManager.GetActiveScene();
         popupAnimator = window.GetComponent<Animator>();
         popUpQueue = new Queue<string>();
-        //currentObjectives = objectiveScript.objectives.Count ;
+        //currentObjectives = objectiveList.Count ;
         objectiveText.text = objectiveList[0].Object;
+        objectiveText1.text = objectiveList[1].Object;
+        objectiveText2.text = objectiveList[2].Object;
 
+        Debug.Log(objectiveList[1].Object);
         //for scenes
         if (scene.buildIndex == 6)
         {
@@ -75,16 +79,17 @@ public class PopupWindow : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
         do
         {
-            ShowPopup(popUpQueue.Dequeue());
-            do
+          ShowPopup(popUpQueue.Dequeue());
+           do
             {
-                yield return null;
+              yield return null;
             } while (!popupAnimator.GetCurrentAnimatorStateInfo(0).IsTag("Idle"));
         } while (popUpQueue.Count > 0);
         window.SetActive(false);
         queueChecker = null;
     }
 
+            
 
     void IPointerDownHandler.OnPointerDown(PointerEventData eventData)
     {

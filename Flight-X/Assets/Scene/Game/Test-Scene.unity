@@ -330,6 +330,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6811448917398684357, guid: 50cce52fd0c43ca4f98b077798e69fa1, type: 3}
   m_PrefabInstance: {fileID: 7954871792225692059}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &168474760 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6076027503749943484, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
+  m_PrefabInstance: {fileID: 1503992375}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &168474762 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3233516841238655136, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
+  m_PrefabInstance: {fileID: 1503992375}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168474760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &316524723 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4368844485736080139, guid: be1c6179ad509a04c81fbb87d14e6dcd, type: 3}
@@ -497,6 +513,10 @@ PrefabInstance:
     - target: {fileID: 3900108755062758285, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_Name
       value: ConversationManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 3900108755196472086, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
+      propertyPath: ScrollSpeed
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3900108755196472086, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: BackgroundImage
@@ -844,9 +864,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: PopUpWindow
       objectReference: {fileID: 0}
+    - target: {fileID: 778530529953377797, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -22
+      objectReference: {fileID: 0}
     - target: {fileID: 2250847608551123682, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679727714808082925, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3578118889180266187, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
       propertyPath: m_Color.a
@@ -885,12 +913,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1650401922}
     - target: {fileID: 5312287196016061105, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
+      propertyPath: objectiveText1
+      value: 
+      objectReference: {fileID: 1901369158}
+    - target: {fileID: 5312287196016061105, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
+      propertyPath: objectiveText2
+      value: 
+      objectReference: {fileID: 168474762}
+    - target: {fileID: 5312287196016061105, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
       propertyPath: objectives.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5312287196016061105, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
       propertyPath: objectiveList.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5312287196016061105, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
       propertyPath: objectives.Array.data[0]
@@ -899,6 +935,14 @@ PrefabInstance:
     - target: {fileID: 5312287196016061105, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
       propertyPath: objectiveList.Array.data[0].Object
       value: 'Talk to NPC''s Name '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312287196016061105, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
+      propertyPath: objectiveList.Array.data[1].Object
+      value: 'Check the Chairs '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312287196016061105, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
+      propertyPath: objectiveList.Array.data[2].Object
+      value: Open the Doors
       objectReference: {fileID: 0}
     - target: {fileID: 5514481620993882267, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
       propertyPath: m_text
@@ -944,6 +988,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6076027503749943484, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9115571081633994796, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -22.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -965,6 +1017,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7959172845899526850, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
   m_PrefabInstance: {fileID: 1503992375}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1901369156 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2679727714808082925, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
+  m_PrefabInstance: {fileID: 1503992375}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1901369158 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4376703330661181225, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
+  m_PrefabInstance: {fileID: 1503992375}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901369156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1902370816 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 725214113357079277, guid: be1c6179ad509a04c81fbb87d14e6dcd, type: 3}
@@ -1056,6 +1124,8 @@ MonoBehaviour:
   myConversation: {fileID: 1338138465}
   talkPressed: 0
   talkButton: {fileID: 384620424}
+  objectiveText1: {fileID: 1901369156}
+  objectiveText2: {fileID: 168474760}
 --- !u!135 &1956619009
 SphereCollider:
   m_ObjectHideFlags: 0
