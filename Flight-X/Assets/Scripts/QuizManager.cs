@@ -67,6 +67,7 @@ public class QuizManager : MonoBehaviour
 
     public void proceed()
     {
+        UnlockNewLevel();
         SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
     }
 
@@ -99,7 +100,15 @@ public class QuizManager : MonoBehaviour
             Debug.Log("Out of questions");
             GameOver(); 
         }
-       
     }
-
+    void UnlockNewLevel()
+    {
+        if (SceneManager.GetActiveScene().buildIndex >= PlayerPrefs.GetInt("Reached Index"))
+        {
+            PlayerPrefs.SetInt("ReachedIndex", SceneManager.GetActiveScene().buildIndex + 1);
+            PlayerPrefs.SetInt("UnlockedLevel", PlayerPrefs.GetInt("UnlockedLevel", 1) + 1);
+            PlayerPrefs.Save();
+            Debug.Log("New Level has been unlocked");
+        }
+    }
 }

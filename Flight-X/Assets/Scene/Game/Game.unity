@@ -714,6 +714,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 817077882}
     - target: {fileID: 1536616551447513895, guid: 50cce52fd0c43ca4f98b077798e69fa1, type: 3}
+      propertyPath: _FixedTalkButton
+      value: 
+      objectReference: {fileID: 696962307}
+    - target: {fileID: 1536616551447513895, guid: 50cce52fd0c43ca4f98b077798e69fa1, type: 3}
       propertyPath: _FixedClipboardButton
       value: 
       objectReference: {fileID: 1659790362}
@@ -6541,6 +6545,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1621247122774034943, guid: 8fda9964e3698f3499325ff6e118e8c6, type: 3}
+--- !u!114 &696962307 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5809612637470929606, guid: 50cce52fd0c43ca4f98b077798e69fa1, type: 3}
+  m_PrefabInstance: {fileID: 72675155}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99c3a629a763a9f4ba703707a7d3d1d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705477559 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2447925863419508894, guid: 8fda9964e3698f3499325ff6e118e8c6, type: 3}

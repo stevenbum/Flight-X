@@ -42,6 +42,7 @@ public class ObjectiveScript : MonoBehaviour
         //final objective code
         if (objectivesDone == objectives.Count) {
             Debug.Log("Level Complete!");
+            UnlockNewLevel();
             Victory();
             return;
         }
@@ -57,8 +58,18 @@ public class ObjectiveScript : MonoBehaviour
         objectives[objectivesDone].GetComponent<ObjectiveActivator>().ActivateObjective();
     }
     private void Victory()
-    {
+    {   
         SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
         Debug.Log("Proceed to next level");
+    }
+    void UnlockNewLevel()
+    {
+        if (SceneManager.GetActiveScene().buildIndex >= PlayerPrefs.GetInt("Reached Index"))
+        {
+            PlayerPrefs.SetInt("ReachedIndex", SceneManager.GetActiveScene().buildIndex + 1);
+            PlayerPrefs.SetInt("UnlockedLevel", PlayerPrefs.GetInt("UnlockedLevel", 1) + 1);
+            PlayerPrefs.Save();
+            Debug.Log("New Level has been unlocked");
+        }
     }
 }
