@@ -381,6 +381,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99c3a629a763a9f4ba703707a7d3d1d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &638587354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7809599322005026974, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
+  m_PrefabInstance: {fileID: 1503992375}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &936307690 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5312287196016061105, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
@@ -868,6 +873,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -22
       objectReference: {fileID: 0}
+    - target: {fileID: 1818801832930081642, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248393077304729630, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2250847608551123682, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -21
@@ -920,6 +933,10 @@ PrefabInstance:
       propertyPath: objectiveText2
       value: 
       objectReference: {fileID: 168474762}
+    - target: {fileID: 5312287196016061105, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
+      propertyPath: ObjectiveNotification
+      value: 
+      objectReference: {fileID: 638587354}
     - target: {fileID: 5312287196016061105, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
       propertyPath: objectives.Array.size
       value: 1
@@ -989,6 +1006,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6076027503749943484, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098763295066369345, guid: 9e5df2a8bdd5f834b9c484e31038984b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1126,6 +1147,7 @@ MonoBehaviour:
   talkButton: {fileID: 384620424}
   objectiveText1: {fileID: 1901369156}
   objectiveText2: {fileID: 168474760}
+  finished: 0
 --- !u!135 &1956619009
 SphereCollider:
   m_ObjectHideFlags: 0

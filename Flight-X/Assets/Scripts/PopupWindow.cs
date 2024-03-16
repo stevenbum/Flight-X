@@ -9,43 +9,61 @@ using UnityEngine.SceneManagement;
 public class PopupWindow : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     Scene scene;
-    public List<ObjectiveList> objectiveList;
-    private Queue<string> popUpQueue;
-    public TMP_Text popupText;
-    public TMP_Text objectiveText;
-    public TMP_Text objectiveText1;
-    public TMP_Text objectiveText2;
+    public GameObject ObjectiveNotification;
     public GameObject window;
     private Animator popupAnimator;
     private Coroutine queueChecker;
-    
-    //private ObjectiveScript objectiveScript;
-
+    public TMP_Text popupText;
+    public List<ObjectiveList> objectiveList;
+    private Queue<string> popUpQueue;
+    public TMP_Text[] texts;
     public bool clipPressed;
+    private int currentObjectives;
+    private ObjectiveScript objectiveScript;
 
-    // get number of objectives from objective script
-    
+
+
+
     private void Start()
-    {   
+    {
+        TexttoArray();
         scene = SceneManager.GetActiveScene();
         popupAnimator = window.GetComponent<Animator>();
         popUpQueue = new Queue<string>();
-        //currentObjectives = objectiveList.Count ;
-        objectiveText.text = objectiveList[0].Object;
-        objectiveText1.text = objectiveList[1].Object;
-        objectiveText2.text = objectiveList[2].Object;
+        Debug.Log(currentObjectives);
 
-        Debug.Log(objectiveList[1].Object);
-        //for scenes
-        if (scene.buildIndex == 6)
+        //switch case gets the current scene displays pop up based on current scene;
+        switch (scene.buildIndex)
         {
-            ShowPopup("Board the Plane");
+            case 6:
+                ShowPopup("How to Play");
+                break;
+
+            case 8:
+                ShowPopup("Fire On Board");
+                break;
+
+            case 10:
+                ShowPopup("Loss of Pressurization");
+                break;
+
+            default:
+                ShowPopup("Test Scene- Testing");
+                break;
         }
-        else if(scene.buildIndex == 8) {
-            ShowPopup("Fire On Board");
-        }
-        else
-            ShowPopup("Test Scene- Testing");
+
+
+        //for scenes
+        /** for scenes
+         if (scene.buildIndex == 6)
+         {
+             ShowPopup("Board the Plane");
+         }
+         else if(scene.buildIndex == 8) {
+             ShowPopup("Fire On Board");
+         }
+         else
+             ShowPopup("Test Scene- Testing");**/
     }
     private void Update()
     {
@@ -68,7 +86,6 @@ public class PopupWindow : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     }
     public void ShowPopup(string objectives)
     {
- 
         window.SetActive(true);
         popupText.text = objectives;
         popupAnimator.Play("PopUpAnimation");
@@ -89,7 +106,20 @@ public class PopupWindow : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         queueChecker = null;
     }
 
-            
+    void TexttoArray()
+    {
+        //currentObjectives = objectiveScript.objectives.Count;
+        int childCount = ObjectiveNotification.transform.childCount;
+        texts = new TMP_Text[childCount];
+        
+        for(int i = 0; i < childCount; i++)
+        {
+            texts[i] = ObjectiveNotification.transform.GetChild(i).GetComponent<TMP_Text>();
+            texts[i].text = objectiveList[i].Object;
+        }
+    }
+
+
 
     void IPointerDownHandler.OnPointerDown(PointerEventData eventData)
     {

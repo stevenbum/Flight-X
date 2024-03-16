@@ -5,13 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class ObjectiveScript : MonoBehaviour
 {
-    private List<Transform> objectives = new List<Transform>();
+    public List<Transform> objectives = new List<Transform>();
 
     public Material activeObjectives;
     public Material inactiveObjectives;
     public Material finalObjectives;
     public int sceneBuildIndex;
-    private int objectivesDone = 0;
+
+    [HideInInspector]
+    public int objectivesDone = 0;
 
 
     private void Start()
@@ -35,9 +37,10 @@ public class ObjectiveScript : MonoBehaviour
     public void nextObjective()
     {
         objectivesDone++;
-
         Debug.Log("Objectives finished: " + objectivesDone);
         Debug.Log("Objectives remaining: " + objectives.Count); 
+        // code for underlining the done tasks
+
 
         //final objective code
         if (objectivesDone == objectives.Count) {
